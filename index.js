@@ -108,7 +108,7 @@ function text(ctx, str, x, y, { font = '16px Times New Roman', spacing = 6 }, ..
 					py = y - totalHeight + charY;
 					break;
 				case 'middle':
-					py = y + charY +- totalHeight / 2;
+					py = y + charY - totalHeight / 2;
 					break;
 			}
 			ctx.font = getFont(bold, italic);
